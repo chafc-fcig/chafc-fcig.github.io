@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-with-toc
 title: Collection and Institution Codes
 ---
 

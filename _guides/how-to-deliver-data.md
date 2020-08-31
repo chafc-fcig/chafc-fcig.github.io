@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-with-toc
 title: How to deliver data to the ALA
 ---
 
