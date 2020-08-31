@@ -1,0 +1,23 @@
+---
+---
+
+@import "minima";
+.field-description {
+    display: flex;
+    align-items: center;
+}
+.field-name {
+    border: solid light-grey;
+}
+.example {
+    display: flex;
+}
+.field-th {
+    background-color: WhiteSmoke;
+    padding-left:25px;
+    font-weight: normal;
+}
+td {
+    background-color: white;
+    margin-bottom: 0px;
+}

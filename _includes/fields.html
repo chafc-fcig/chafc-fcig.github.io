@@ -1,0 +1,69 @@
+<table>
+{% for field in site.data.fields %}
+{% if field.mandatory == include.mandatory and field.category == include.category %}
+
+
+<tr>
+<th colspan="2">
+{% if field.url %}
+<a href="{{ field.url }}">
+{{ field.fieldname }}
+</a>
+{% else %}
+{{ field.fieldname }}
+{% endif %}
+</th>
+</tr>
+<tr>
+<th class="field-th">Description</th>
+
+<td class="description">
+{% if field.description1 %}
+
+{{ field.description1 }}
+
+{% endif %}
+
+{% if field.description2 %}
+
+{{ field.description2 }}
+
+{% endif %}
+
+{% if field.description3 %}
+
+{{ field.description3 }}
+
+{% endif %}
+
+</td>
+</tr>
+<tr>
+<th class="field-th">Examples</th>
+<td class="example">
+{% if field.example1 %}
+
+<pre>{{ field.example1 }}</pre>
+
+{% endif %}
+
+{% if field.example2 %}
+
+<pre>{{ field.example2 }}</pre>
+
+{% endif %}
+
+{% if field.example3 %}
+
+<pre>{{ field.example3 }}</pre>
+
+{% endif %}
+
+</td>
+</tr>
+
+
+{% endif %}
+
+{% endfor %}
+</table>
