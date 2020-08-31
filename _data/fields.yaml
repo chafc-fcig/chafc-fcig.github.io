@@ -1,0 +1,201 @@
+-   fieldname: 'dcterms:modified'
+    category: Record-level
+    url: 'https://dwc.tdwg.org/terms/#dcterms:modified'
+    standard: dublincore
+    mandatory: mandatory
+    description: |
+      When the record was last edited on your collections database
+    examples:
+      - 27/01/2020
+
+-   fieldname: 'dcterms:language'
+    category: Record-level
+    url: 'https://dwc.tdwg.org/terms/#dc:language'
+    standard: dublincore
+    mandatory: encouraged
+    description: |
+      The code for the language in which your data is written,
+      almost certainly English: `en`
+    examples:
+      - en
+
+-   fieldname: 'dcterms:license'
+    category: Record-level
+    url: 'https://dwc.tdwg.org/terms/#dcterms:license'
+    standard: dublincore
+    mandatory: mandatory
+    examples:
+      - BB BY 4.0 AU
+
+-   fieldname: 'dcterms:rightsHolder'
+    category: Record-level
+    url: 'https://dwc.tdwg.org/terms/#dcterms:rightsHolder'
+    standard: dublincore
+    mandatory: mandatory
+    examples:
+      - Museum Board of South Australia
+
+-   fieldname: institutionCode
+    category: Record-level
+    url: 'https://dwc.tdwg.org/terms/#dwc:institutionCode'
+    standard: darwincore
+    mandatory: mandatory
+    description: |
+      The standard institution code used to describe the institution
+    examples:
+      - SAMA
+      - QM
+      - ANWC
+
+-   fieldname: collectionCode
+    category: Record-level
+    url: 'https://dwc.tdwg.org/terms/#dwc:collectionCode'
+    standard: darwincore
+    mandatory: mandatory
+    description: |
+      The collection within your institution from which the specimen comes
+    examples:
+      - Mammalogy
+      - MAMM
+      - Fishes
+
+-   fieldname: datasetName
+    category: Record-level
+    url: 'https://dwc.tdwg.org/terms/#dwc:datasetName'
+    standard: darwincore
+    mandatory: encouraged
+    description: |
+      The expedition name if this specimen was collected
+      on an expedition
+
+-   fieldname: basisOfRecord
+    category: Record-level
+    url: 'https://dwc.tdwg.org/terms/#dwc:basisOfRecord'
+    standard: darwincore
+    mandatory: mandatory
+    description: |
+      Biological specimens = PreservedSpecimen
+      
+      Tissue samples = MaterialSample
+    examples:
+      - preservedSpecimen
+      - materialSample
+
+-   fieldname: occurrenceStatus
+    category: Occurrence
+    url: 'https://dwc.tdwg.org/terms/#dwc:occurrenceStatus'
+    standard: darwincore
+    mandatory: mandatory
+    description: |
+      Pretty much always present for Museum specimen data.
+    examples:
+      - present
+      - absent
+
+-   fieldname: catalogNumber
+    category: Occurrence
+    url: 'https://dwc.tdwg.org/terms/#dwc:catalogNumber'
+    standard: darwincore
+    mandatory: mandatory
+    examples:
+      - H1234
+      - ABTC128732.3
+      - M267a
+
+-   fieldname: recordNumber
+    category: Occurrence
+    url: 'https://dwc.tdwg.org/terms/#dwc:recordNumber'
+    standard: darwincore
+    mandatory: encouraged
+    description: |
+      Any field numbers - number given to the specimen when it was
+      collected or at some interim time before it was registered into
+      your Museum's collection.
+      
+      Do not use the field fieldNumber for the field number - it is
+      reserved for numbers assigned to the collection location.
+    examples:
+      - A13
+
+-   fieldname: recordedBy
+    category: Occurrence
+    url: 'https://dwc.tdwg.org/terms/#dwc:recordedBy'
+    standard: darwincore
+    mandatory: encouraged
+    description: |
+      The collector (or observer of a sighting)
+    examples:
+      - Ken Walker
+      - McArthur, A
+
+-   fieldname: associatedOccurrences
+    category: Organism
+    url: 'http://rs.tdwg.org/dwc/terms/associatedOccurrences'
+    standard: darwincore
+    mandatory: encouraged
+
+-   fieldname: 'ggbn:materialSampleType'
+    category: 'Material Sample'
+    standard: ggbn
+    mandatory: mandatory
+    description1: 'For tissue samples this is always tissue'
+    examples:
+      - tissue
+
+-   fieldname: 'ggbn:preparationDate'
+    category: 'Material Sample'
+    standard: ggbn
+    mandatory: mandatory
+    examples:
+      - 2/03/2020
+
+-   fieldname: 'ggbn:preparationType'
+    category: 'Material Sample'
+    standard: ggbn
+    mandatory: mandatory
+    description1: 'The type of tissue'
+    examples:
+      - muscle
+      - blood
+      - whole
+
+-   fieldname: 'ggbn:preservationType'
+    category: 'Material Sample'
+    standard: ggbn
+    mandatory: mandatory
+    examples:
+      - frozen
+      - alcohol
+
+-   fieldname: 'ggbn:preservationTemperature'
+    category: 'Material Sample'
+    standard: ggbn
+    mandatory: mandatory
+    examples:
+      - -70 degrees Celsius
+      - room temperature
+
+-   fieldname: 'ggbn:permitType'
+    category: 'Material Sample'
+    standard: ggbn
+    mandatory: mandatory
+    description: |
+      see controlled vocabulary:
+      https://terms.tdwg.org/wiki/ggbnvoc:permitType_vocabulary
+    examples:
+      - Export Permit
+      - Collecting Permit
+
+-   fieldname: 'ggbn:permitStatus'
+    category: 'Material Sample'
+    standard: ggbn
+    mandatory: mandatory
+    description: |
+      from controlled vocabulary:
+      https://terms.tdwg.org/wiki/ggbnvoc:permitStatus_vocabulary
+    examples:
+      - Permit available
+      - Permit not required
+      - Permit not available
+      - Unknown
+
