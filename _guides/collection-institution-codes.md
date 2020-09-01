@@ -13,7 +13,7 @@ title: Collection and Institution Codes
 | ANWC  | Australian National Wildlife Collection      |
 | MAGNT | Museum and Gallery of the Northern Territory |
 | NMV   | Museums Victoria                             |
-| QMAG  | Queensland Museum and Art Gallery            |
+| QM    | Queensland Museum                            |
 | QVMAG | Queen Victoria Museum and Art Gallery        |
 | SAMA  | South Australian Museum                      |
 | TMAG  | Tasmanian Museums and Art Gallery            |
@@ -54,8 +54,18 @@ and may not be correct*
 |             | Mammalogy                            |
 | QM          | Crustacea                            |
 |             | Herpetology                          |
-|             | Ichthyology                          |
-|             | Mammalogy                            |
+|             | Arachnids                            |
+|             | Birds                                |
+|             | Corals                               |
+|             | Crustacea                            |
+|             | Entomology                           |
+|             | Fishes                               |
+|             | Mammals                              |
+|             | Molluscs                             |
+|             | OtherInverts                         |
+|             | Palaeontology                        |
+|             | Porifera                             |
+|             | Protozoa                             |
 | SAMA        | Arachnology                          |
 |             | AustralianBiologicalTissueCollection |
 |             | Entomology                           |
