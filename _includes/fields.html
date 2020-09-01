@@ -18,45 +18,22 @@
 <th class="field-th">Description</th>
 
 <td class="description">
-{% if field.description1 %}
+{% if field.description %}
 
-{{ field.description1 }}
-
-{% endif %}
-
-{% if field.description2 %}
-
-{{ field.description2 }}
+{{ field.description }}
 
 {% endif %}
-
-{% if field.description3 %}
-
-{{ field.description3 }}
-
-{% endif %}
-
 </td>
 </tr>
 <tr>
 <th class="field-th">Examples</th>
 <td class="example">
-{% if field.example1 %}
+{% if field.examples %}
+{% for ex in field.examples %}
 
-<pre>{{ field.example1 }}</pre>
+<pre>{{ ex }}</pre>
 
-{% endif %}
-
-{% if field.example2 %}
-
-<pre>{{ field.example2 }}</pre>
-
-{% endif %}
-
-{% if field.example3 %}
-
-<pre>{{ field.example3 }}</pre>
-
+{% endfor %}
 {% endif %}
 
 </td>

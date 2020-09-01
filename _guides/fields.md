@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-with-toc
 title: The Fields to use
 ---
 
