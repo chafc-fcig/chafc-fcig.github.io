@@ -24,7 +24,7 @@ url: "chafc-fcig.github.io" # the base hostname & protocol for your site, e.g. h
 #github_username:  jekyll
 
 # Build settings
-markdown: GFM
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
