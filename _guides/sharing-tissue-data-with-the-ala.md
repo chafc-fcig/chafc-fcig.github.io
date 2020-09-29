@@ -4,8 +4,7 @@ title: Sharing tissue data with the ALA
 ---
 
 
-Introduction
-============
+## Introduction ##
 
 The Museums of Australia have been delivering data relating to their
 collections of biological specimens to the ALA for a number of years.
@@ -27,8 +26,7 @@ will be more proscriptive, outlining the decisions which Australian
 Museums delivering data to the Atlas of Living Australia have reached
 regarding how we should coordinate our efforts.
 
-Basic requirements
-------------------
+### Basic requirements ###
 
 For a tissue sample extra information is required in addition to what is
 required to deliver occurrence data. This description will assume that
@@ -52,22 +50,19 @@ The necessary things to know are:
 -   How the tissue sample has been stored, including temperature
 -   Permit information
 
-One tissue = one record
------------------------
+### One tissue = one record ###
 
 When delivering data each tissue sample must be delivered as a single
 record.
 
-Permit information
-------------------
+### Permit information ###
 
 Information relating to the permit has become important as a result of
 the Nagoya Protocol. There is not space in this document to explain the
 Protocol in detail, we will just outline what data you are required to
 deliver.
 
-GGBN standard
--------------
+### GGBN standard ###
 
 We draw from the Data Standard created by the Global Genome Biodiversity
 Network for the representation of 'tissue, DNA or RNA samples associated
@@ -89,14 +84,12 @@ standard the column header should be preceeded with 'ggbn:', for example
 Unlike Darwin Core the GGBN standard does have mandatory fields. The
 description will begin with them.
 
-GGBN fields - the tissue sample
-===============================
+## GGBN fields - the tissue sample ##
 
 {% include fields.html mandatory="mandatory" category="Material Sample" %}
 
 
-The Voucher
-===========
+## The Voucher ##
 
 As well as the information about the tissue sample you also need to
 deliver information about the voucher specimen from which the tissue
@@ -110,8 +103,25 @@ deliver, for the voucher:
 -   The catalogNumber
 
 There isn't an official Darwin Core standard way to deliver this
-information so deliver these three fields separated with a ':' in a
-single column. 
+information so you have the choice of whether to deliver the data as a
+fully formed link or delivering the information for the ALA to use to
+generate a URL from. 
+
+### Generate the Voucher URL ###
+
+**This is the preferred option**
+
+See [Linking to an ALA occurrence record](linking-to-an-ALA-occurrence-record)
+
+### Send the data for the ALA to assemble ###
+
+You will need to discuss this with the ALA to ensure that they are
+aware of what you are doing and require them to do. The creation of
+the URL does not happen automatically.
+
+
+deliver these three fields separated with a ':'
+in a single column.
 
 Call this column `relatedResourceCatalogNumber`
 

@@ -3,7 +3,7 @@ layout: page-with-toc
 title: Sharing data with the ALA
 ---
 
-# Introduction
+## Introduction ##
 
 The Collecting Institutions of Australia have collectively decided to
 share their biological specimen data with the world through the Atlas of
