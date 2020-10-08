@@ -2,7 +2,6 @@
 {% for field in site.data.fields %}
 {% if field.mandatory == include.mandatory and field.category == include.category %}
 
-
 <tr>
 <th colspan="2">
 {% if field.url %}
@@ -25,6 +24,18 @@
 {% endif %}
 </td>
 </tr>
+
+{% if field.warning %}
+<tr>
+<th class="field-th warning">Warning!</th>
+
+<td class="warning">
+
+{{ field.warning }}
+</td>
+</tr>
+{% endif %}
+
 <tr>
 <th class="field-th">Examples</th>
 <td class="example">
@@ -41,6 +52,5 @@
 
 
 {% endif %}
-
 {% endfor %}
 </table>
