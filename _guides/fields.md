@@ -6,7 +6,7 @@ title: The Fields to use
 These are the mandatory and recommended fields to use.
 
 **Mandatory:** You must include this piece of data. These fields
-should always be able to be populated.
+should always be populated.
 
 **Encouraged** If there is a value that could be recorded for this
 field it should be delivered if possible.
@@ -14,41 +14,47 @@ field it should be delivered if possible.
 As there are a reasonably large number of them they are broken up into
 the categories of the Darwin Core standard.
 
-There is a link to the appropriate standard beside each field (when it
-comes from a standard). A description is only added where further
+Click on the field name to go to it in the appropriate standard (when
+it comes from a standard). 
+
+A description is only added where further
 clarity is needed over what's in the appropriate standard.
+
+## Multiple values
 
 Note that in fields where it might be appropriate to include multiple
 entries they should be separated with a `|`. For example when a
 specimen has multiple associated field numbers the recordNumber entry
 should be delivered like: `A13|eob655`
 
-## Record-level
+{% assign categories = "Record-level,Occurrence,Organism" | split: ',' %}
 
-### Mandatory
 
-{% include fields.html mandatory="mandatory" category="Record-level" %}
+## Mandatory
 
-### Encouraged
+You must deliver this set of fields for every record.
 
-{% include fields.html mandatory="optional" category="Record-level" %}
+Every field designated as mandatory must have a valid value.
 
-## Occurrence
+{% for cat in categories %}
 
-### Mandatory
+### {{cat}}
 
-{% include fields.html mandatory="mandatory" category="Occurrence" %}
+{% include fields.html mandatory="mandatory" category=cat %}
 
-### Encouraged
+{% endfor %}
 
-{% include fields.html mandatory="encouraged" category="Occurrence" %}
+## Encouraged
 
-## Organism
+It is strongly encouraged that you send these fields.
 
-### Mandatory
+Every field designated as encouraged must have a valid value if one is known.
 
-{% include fields.html mandatory="mandatory" category="Organism" %}
+{% for cat in categories %}
 
-### Encouraged
+### {{cat}}
 
-{% include fields.html mandatory="encouraged" category="Organism" %}
+{% include fields.html mandatory="encouraged" category=cat %}
+
+{% endfor %}
+

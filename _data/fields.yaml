@@ -1,10 +1,11 @@
+# General Metadata fields (i.e. Record-level)
 -   fieldname: 'dcterms:modified'
     category: Record-level
     url: 'https://dwc.tdwg.org/terms/#dcterms:modified'
     standard: dublincore
     mandatory: mandatory
     description: |
-      When the record was last edited on your collections database
+      When the record was last edited on your collections database.
     examples:
       - 27/01/2020
 
@@ -15,7 +16,7 @@
     mandatory: encouraged
     description: |
       The code for the language in which your data is written,
-      almost certainly English: `en`
+      almost certainly English: "en"
     examples:
       - en
 
@@ -24,14 +25,24 @@
     url: 'https://dwc.tdwg.org/terms/#dcterms:license'
     standard: dublincore
     mandatory: mandatory
+    description: |
+      The license under which your institution is licensing this data
+      to users. Note that the ALA in general is licensed under the
+      Creative Commons license CC BY 3.0 AU - if your institution
+      wants to vary from that you should discuss that with the Atlas.
     examples:
-      - BB BY 4.0 AU
+      - CC BY 4.0 AU
+      - CC BY 3.0 AU
 
 -   fieldname: 'dcterms:rightsHolder'
     category: Record-level
     url: 'https://dwc.tdwg.org/terms/#dcterms:rightsHolder'
     standard: dublincore
     mandatory: mandatory
+    description: |
+      Who holds the copyright in the record that you are
+      delivering. Your institution probably has a standard term for
+      material (like these records) which is produced by employees.
     examples:
       - Museum Board of South Australia
 
@@ -66,7 +77,14 @@
     mandatory: encouraged
     description: |
       The expedition name if this specimen was collected
-      on an expedition
+      on an expedition.
+    warning: |
+      FCIG's interpretation of this field is different to that of
+      HISCOM. We have decided to respectfully disagree and each stick
+      with our own interpretation.
+    examples:
+      - Bush Blitz 2016 Lake Torrens
+      - SARDI Coorong Survey 2009
 
 -   fieldname: basisOfRecord
     category: Record-level
@@ -74,9 +92,9 @@
     standard: darwincore
     mandatory: mandatory
     description: |
-      Biological specimens = PreservedSpecimen
+      For biological specimens enter PreservedSpecimen
       
-      Tissue samples = MaterialSample
+      For tissue samples enter MaterialSample
     examples:
       - preservedSpecimen
       - materialSample
@@ -87,7 +105,8 @@
     standard: darwincore
     mandatory: mandatory
     description: |
-      Pretty much always present for Museum specimen data.
+      Always present for Museum specimen data unless you are
+      delivering a data set that specifically includes absence data.
     examples:
       - present
       - absent
@@ -111,9 +130,9 @@
       Any field numbers - number given to the specimen when it was
       collected or at some interim time before it was registered into
       your Museum's collection.
-      
+    warning: |
       Do not use the field fieldNumber for the field number - it is
-      reserved for numbers assigned to the collection location.
+      used to record numbers assigned to the collection location.
     examples:
       - A13
 
@@ -123,7 +142,7 @@
     standard: darwincore
     mandatory: encouraged
     description: |
-      The collector (or observer of a sighting)
+      The collector (or observer if the record is of a sighting)
     examples:
       - Ken Walker
       - McArthur, A
@@ -133,6 +152,15 @@
     url: 'http://rs.tdwg.org/dwc/terms/associatedOccurrences'
     standard: darwincore
     mandatory: encouraged
+    description: |
+      A DarwinCode triplet of any associated occurrences.
+    warning: |
+      If the associated occurrence is a specimen held in another
+      institution make sure that the institutionCode and
+      collectionCode match that used by the other institution.
+    examples:
+      - M2345
+      - B134.2
 
 -   fieldname: 'ggbn:materialSampleType'
     category: 'Material Sample'
