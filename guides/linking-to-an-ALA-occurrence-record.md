@@ -1,11 +1,14 @@
 ---
 title: Linking to an ALA occurrence record
-layout: page-with-toc
+layout: page
+parent: Guides
 ---
 
-# ALA Occurrence Records #
+# Linking to another record on the ALA
 
-When we are delivering data to the ALA we are delivering occurrence
+## ALA Occurrence Records ##
+
+When museums deliver data to the ALA they are delivering occurrence
 records, indicating the occurrence of a particular organism in a
 particular location at a particular time. 
 
@@ -32,22 +35,17 @@ The URL to a resource on the ALA has the following structure:
 Broken up to make it easier to read:
 
 `<a href="https://biocache.ala.org.au/occurrences/search?q=`
-
 `institution_code:"[institutionCode]"`
-
 ` AND collection_code:"[collectionCode]"`
-
 ` AND catalogue_number:"[catalogueNumber]">`
-
 `[institutionCode]:[collectionCode]:[catalogNumber]`
-
 `</a>`
 
 Broken up and HTML encoded like you'd probably use for building the
 string:
 
 ```
-<a href="https://biocache.ala.org.au/occurrences/search?q=institution_code:%22[institutionCode]%22%20AND%20collection_code:%22[collectionCode]%22%20AND%20catalogue_number:%22[CatalogueNumber]%22">source specimen: [institutionCode]:[collectionCode]:[catalogNumber]</a>
+<a href="https://biocache.ala.org.au/occurrences/search?q=institution_code:%22[institutionCode]%22%20AND%20collection_code:%22[collectionCode]%22%20AND%20catalogue_number:%22[CatalogueNumber]%22">associated specimen: [institutionCode]:[collectionCode]:[catalogNumber]</a>
 ```
 
 So you would construct the string with something like:
@@ -65,7 +63,7 @@ var voucherUrl = baseUrl
 	+ collection
 	+ "%20AND%20"
 	+ catalogue
-	+ "%22\">source specimen " 
+	+ "%22\">associated specimen " 
 	+ institutionCode + ":" + collectionCode + ":" + catalogueNumber 
 	+ "</a>";
 
@@ -97,8 +95,9 @@ If you only know the Institution:
 <a href="https://biocache.ala.org.au/occurrences/search?q=institution_code:%22[institutionCode]%22">[institutionCode]</a>
 ```
 
-{% highlight shell %}
+So you end up with something along the lines of:
 
+```shell 
 institutionCode = # Get the institution code from your data
 collectionCode = # Get the collection code from your data
 catalogueNumber = # Get the catalogue number from your data
@@ -118,7 +117,7 @@ then
 	voucherUrl += "%20AND%20$catalogue"
 fi
 
-end_of_Url = "\">source specimen $institutionCode:$collectionCode:$catalogueNumber</a>"
+end_of_Url = "\">associated specimen $institutionCode:$collectionCode:$catalogueNumber</a>"
 
 voucherUrl += end_of_Url;
-{% endhighlight %}
+```

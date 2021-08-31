@@ -1,6 +1,7 @@
 ---
-layout: page-with-toc
+layout: page
 title: Sharing data with the ALA
+parent: Guides
 ---
 
 ## Introduction ##
@@ -10,13 +11,11 @@ share their biological specimen data with the world through the Atlas of
 Living Australia (ALA).
 
 This document is a guide to how to select and format data from an
-insitutions collections management database and deliver it to the ALA.
+institution's collections management database and deliver it to the ALA.
 
-In summary, if we all talk about things in as identical a manner as
-possible then the data can be more useful.
-
-This will allow for it to seamlessly aggregate with the rest of the
-Distributed National Faunal Ccollection.
+If we describe things in as identical a manner as possible then the data
+can be more useful as it will be seamlessly aggregate with the rest of
+the Distributed National Faunal Collection.
 
 ## Standards
 
@@ -51,7 +50,7 @@ standard is not very prescriptive for some fields we have decided a
 standard Australian practice to allow our data to be more useful in
 aggregate.
 
-Not that there are no mandatory field in Darwin Core
+Note that there are no mandatory field in Darwin Core
 
 ### Dublin Core
 

@@ -1,6 +1,7 @@
 ---
-layout: page-with-toc
+layout: default
 title: Collection and Institution Codes
+parent: Guides
 ---
 
 # Institution Codes
@@ -26,12 +27,11 @@ Different institutions call their collections different things within
 their internal collections databases. This is a listing of these
 different collection names.
 
-These codes are particular relevent for the delivery of tissue
+These codes are particular relevant for the delivery of tissue
 samples, to ensure that the voucher record is easily accessible from
 the tissue record
 
-*Currently these codes have been taken from the SAMA tissues database
-and may not be correct*
+These codes were initially compiled from the SA Museum's tissue data which has been enhanced by other institutions. So there may be a bit of drift from current practice. Please let me know.
 
 | Institution | Collection Codes                     |
 |-------------|--------------------------------------|

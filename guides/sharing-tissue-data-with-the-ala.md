@@ -1,6 +1,7 @@
 ---
-layout: page-with-toc
+layout: default
 title: Sharing tissue data with the ALA
+parent: Guides
 ---
 
 
@@ -39,7 +40,7 @@ required for preserved specimens but with a few extra details.
 
 The necessary things to know are:
 
-(Voucher = the source animal from which the tissue sample was taken
+(Voucher = the source animal from which the tissue sample was taken)
 
 -   What taxon the voucher specimen was
 -   Whether the voucher is still extant
@@ -117,10 +118,9 @@ See [Linking to an ALA occurrence record](linking-to-an-ALA-occurrence-record)
 
 You will need to discuss this with the ALA to ensure that they are
 aware of what you are doing and require them to do. The creation of
-the URL does not happen automatically.
+the URL will not happen automatically.
 
-
-deliver these three fields separated with a ':'
+Deliver these three fields separated with a ':'
 in a single column.
 
 Call this column `relatedResourceCatalogNumber`
@@ -144,6 +144,6 @@ SAMA::
 This field is used to construct a URL that gets inserted into the
 record to provide a link back to the voucher.
 
-Also add a column calld `relationshipOfResource` with the value `same
+Also add a column called `relationshipOfResource` with the value `same
 individual` to show that the tissue came from the specimen linked as a
 voucher.

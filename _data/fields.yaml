@@ -64,7 +64,9 @@
     standard: darwincore
     mandatory: mandatory
     description: |
-      The collection within your institution from which the specimen comes
+      The collection within your institution from which the specimen comes.
+    
+      Deliver the collection name as described when you deliver data from that collection from your collections database.
     examples:
       - Mammalogy
       - MAMM
@@ -144,8 +146,8 @@
     description: |
       The collector (or observer if the record is of a sighting)
     examples:
-      - Ken Walker
       - McArthur, A
+      - Joseph, L  
 
 -   fieldname: associatedOccurrences
     category: Organism
@@ -153,7 +155,7 @@
     standard: darwincore
     mandatory: encouraged
     description: |
-      A DarwinCode triplet of any associated occurrences.
+      A DarwinCore triplet of any associated occurrences.
     warning: |
       If the associated occurrence is a specimen held in another
       institution make sure that the institutionCode and

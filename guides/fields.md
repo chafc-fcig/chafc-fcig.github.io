@@ -1,9 +1,12 @@
 ---
-layout: page-with-toc
+layout: default
 title: The Fields to use
+parent: Guides
 ---
 
-These are the mandatory and recommended fields to use.
+# The fields to use 
+
+These are the mandatory and recommended fields to use when delivering data to the ALA.
 
 **Mandatory:** You must include this piece of data. These fields
 should always be populated.
@@ -49,6 +52,8 @@ Every field designated as mandatory must have a valid value.
 It is strongly encouraged that you send these fields.
 
 Every field designated as encouraged must have a valid value if one is known.
+
+These columns should be present in your file but need not necessarily have data for each record.
 
 {% for cat in categories %}
 

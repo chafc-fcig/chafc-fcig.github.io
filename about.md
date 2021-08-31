@@ -2,19 +2,23 @@
 layout: page
 title: About
 permalink: /about/
+nav_order: 5
 ---
 
-The Faunal Council Informatics Group is a group of people from the
-Museums around Australia which hold significant collections of
-biological specimens. 
+# About FCIG
 
-We are concerned with all aspects of faunal collection data but in
-particular we work with the Atlas of Living Australia to promote the
-use of Australian biological specimen data.
+FCIG, the Faunal Council Informatics Group is a group of
+people from the Museums around Australia which hold
+significant collections of biological specimens. 
+
+We are concerned with all aspects of faunal collection data
+but in particular we work with the Atlas of Living Australia
+to promote the aggregation and use of Australian biological
+specimen data.
 
 # Current list of members
 
-As of the 25th of August 2020 the current members of FCIG are:
+As of the 25th of August 2021 the current members of FCIG are:
 
 | Institution                                      | Person          | 
 |--------------------------------------------------|-----------------|
@@ -32,5 +36,10 @@ As of the 25th of August 2020 the current members of FCIG are:
 | Western Australian Museum                        | Andrew Rowe     |
 |                                                  |                 |
 
-Keith Maguire, from the South Australian Museum, is the current chair. 
+Ursula Smith, from Museums Victoria, is the current Chair of FCIG.
 
+---- 
+
+## This site
+
+Keith Maguire, from the South Australian Museum, did the initial building of this site. If there are any required adjustments or corrections and you're not a member of FCIG (or are a member and the [instructions](/editing_this_site.html) don't work for you) contact Keith at keith.maguire@samuseum.sa.gov.au
