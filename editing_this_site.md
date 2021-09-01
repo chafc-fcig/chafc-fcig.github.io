@@ -85,8 +85,11 @@ Jekyll, to configure and create the website.
 See the [instructions on
 GitHub](https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-on-github/editing-files-in-your-repository)
 
-1. Click on the little edit pencil logo 2. Edit the page as required 3. Save
-the page by "Committing" your changes - you have to write in a small
+1. Click on the little edit pencil logo 
+
+2. Edit the page as required 
+
+3. Save the page by "Committing" your changes - you have to write in a small
 description of the changes you made (that's a thing you have to do when using
 git (which keeps track of file changes))
 
@@ -106,9 +109,15 @@ computer you're familiar with getting things like that to work.
 
 In short:
 
-1. If you want to preview the site get Ruby and Jekyll working 2. Clone the
-repository to your computer 3. Edit as you want 4. Commit the edits 5. Push the
-edits back to Github
+1. If you want to preview the site get Ruby and Jekyll working 
+
+2. Clone the repository to your computer 
+
+3. Edit as you want 
+
+4. Commit the edits 
+
+5. Push the edits back to Github
 
 ## Things to watch
 
