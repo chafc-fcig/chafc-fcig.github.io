@@ -18,8 +18,9 @@ title: FCIG
 description: >- # this means to ignore newlines until "baseurl:"
   The Faunal Council Infomatics Group, an advisory group to the Council
   of Heads of Australian Faunal Collections.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "chafc-fcig.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://chafc-fcig.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
