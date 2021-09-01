@@ -4,6 +4,9 @@ title: How to deliver data to the ALA
 parent: Guides
 ---
 
+
+:warning: this site is in the early stages of writing so please don't rely on anything here :warning:
+
 You are an institution which wishes to deliver data to the
 Atlas of Living Australia, but you want to do so in a manner
 that is consistent with the other institutions around the

@@ -4,6 +4,9 @@ title: The Fields to use
 parent: Guides
 ---
 
+
+:warning: this site is in the early stages of writing so please don't rely on anything here :warning:
+
 # The fields to use 
 
 These are the mandatory and recommended fields to use when delivering data to the ALA.

@@ -4,6 +4,8 @@ title: Sharing data with the ALA
 parent: Guides
 ---
 
+:warning: this site is in the early stages of writing so please don't rely on anything here :warning:
+
 ## Introduction ##
 
 The Collecting Institutions of Australia have collectively decided to

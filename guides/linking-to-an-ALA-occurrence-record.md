@@ -4,6 +4,9 @@ layout: page
 parent: Guides
 ---
 
+
+:warning: this site is in the early stages of writing so please don't rely on anything here :warning:
+
 # Linking to another record on the ALA
 
 ## ALA Occurrence Records ##
