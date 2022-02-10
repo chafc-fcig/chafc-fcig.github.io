@@ -18,7 +18,7 @@ specimen data.
 
 # Current list of members
 
-As of the 25th of August 2021 the current members of FCIG are:
+As of the 10 February 2022 the current members of FCIG are:
 
 | Institution                                      | Person          | 
 |--------------------------------------------------|-----------------|
