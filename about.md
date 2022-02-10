@@ -26,7 +26,7 @@ As of the 25th of August 2021 the current members of FCIG are:
 | Australian National Fish Collection (CSIRO)      | Alastair Graham |
 | Australian National Insect Collection (CSIRO)    | Nicole Fisher   |
 | Australian National Wildlife Collection (CSIRO)  | Margaret Cawsey |
-| Australian Museum                                | Anne Hume       |
+| Australian Museum                                | Sunita Mahat    |
 | Museum and Art Gallery of the Northern Territory | Gavin Dally     |
 | Museums Victoria                                 | Ursula Smith    |
 | Queen Victoria Museum and Art Gallery            | Chris Lawrence  |
