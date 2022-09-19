@@ -29,7 +29,7 @@ different collection names.
 
 These codes are particular relevant for the delivery of tissue
 samples, to ensure that the voucher record is easily accessible from
-the tissue record
+the tissue record.
 
 These codes were initially compiled from the SA Museum's tissue data which has been enhanced by other institutions. So there may be a bit of drift from current practice. Please let me know.
 
