@@ -18,17 +18,17 @@ specimen data.
 
 # Current list of members
 
-As of the 10 February 2022 the current members of FCIG are:
+As of the 13 October 2022 the current members of FCIG are:
 
 | Institution                                      | Person          | 
 |--------------------------------------------------|-----------------|
 | Atlas of Living Australia                        | Ely Wallis      |
-| Australian National Fish Collection (CSIRO)      | Alastair Graham |
+| Australian National Herbarium (CSIRO)            | Corinna  Paeper |
 | Australian National Insect Collection (CSIRO)    | Nicole Fisher   |
 | Australian National Wildlife Collection (CSIRO)  | Margaret Cawsey |
 | Australian Museum                                | Sunita Mahat    |
-| Museum and Art Gallery of the Northern Territory | Gavin Dally     |
-| Museums Victoria                                 | Ursula Smith    |
+| Museum and Art Gallery of the Northern Territory | Suzanne Horner  |
+| Museums Victoria                                 | TBC             |
 | Queen Victoria Museum and Art Gallery            | Chris Lawrence  |
 | Queensland Museum                                | Dean Beasley    |
 | South Australian Museum                          | Keith Maguire   |
@@ -36,7 +36,7 @@ As of the 10 February 2022 the current members of FCIG are:
 | Western Australian Museum                        | Andrew Rowe     |
 |                                                  |                 |
 
-Ursula Smith, from Museums Victoria, is the current Chair of FCIG.
+Dean Beasley, from Queensland Museum, is the current Chair of FCIG.
 
 ---- 
 
