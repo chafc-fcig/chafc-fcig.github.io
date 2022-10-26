@@ -28,7 +28,7 @@ As of the 13 October 2022 the current members of FCIG are:
 | Australian National Wildlife Collection (CSIRO)  | Margaret Cawsey |
 | Australian Museum                                | Sunita Mahat    |
 | Museum and Art Gallery of the Northern Territory | Suzanne Horner  |
-| Museums Victoria                                 | TBC             |
+| Museums Victoria                                 | Hazel Richards  |
 | Queen Victoria Museum and Art Gallery            | Chris Lawrence  |
 | Queensland Museum                                | Dean Beasley    |
 | South Australian Museum                          | Keith Maguire   |
